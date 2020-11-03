@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="container menu">
+  <h2>Portafolio</h2>
+  <div class="menu__dropdown">
+    <span>menu</span>
+    <ul class="menu__content">
+      <li>Home</li>
+      <li>About Me</li>
+      <li><a href="#skills">Skills</a></li>
+      <li>Projects</li>
+      <li>Hobbies</li>
+      <li>Contact</li>
+    </ul>   
+  </div>
+  </header>
+
+  <main>
+    <section id="home" class="home container">
+      <div class="home__info">
+        <h3>Portafolio</h3>
+        <p>
+          trying to be a <span>web developer</span>
+        </p>
+        <p>
+          Lorem ipsum dolor sit <span>amet</span>,
+        </p>
+      </div>
+    </section>
+
+    <h2>About me</h2>
+    <section id="about" class="about">
+      
+      <figure class="about__img">
+        <img src="img/fondo.jpg" alt="">
+      </figure>
+          <div class="about__info">
+            <h3>Hi, my name is Chris</h3>
+            <p>
+              and I am trying to become a web Developer
+            </p>
+            <p>I am 30 years old, I been study a lot and honestly I am loving everything about this new world to me :D </p>
+            <p>
+              To many languages <span>javascipt</span>
+            </p>
+          </div>
+    </section>
+
+    <h2>My Skills</h2>
+    <section id="skills" class="skills">
+      
+      <article class="skills__list">
+        <span class="icon--html">icon</span>
+        <p>HTML</p>
+      </article>
+      
+      
+      <article class="skills__list">
+        <span class="icon--css">icon</span>
+        <p>CSS</p>
+      </article>
+      
+      <article class="skills__list">
+        <span class="icon--javascript">icon</span>
+        <p>JavaScript</p>
+      </article>
+
+      <article class="skills__list">
+        <span class="icon--git">icon</span>
+        <p>Git/GitHub</p>
+      </article>
+      
+    </section>
+
+    <h2>Projects</h2>
+    <section id="projects" class="projects container">
+      <article class="projects__list">
+        <figure class="projects__img">
+          <img src="img/diploma.jpg" alt="">
+        </figure>
+        <div class="projects__description">
+          <h3>Name project</h3>
+          <p>Little description</p>
+        </div>
+        <button>Go to</button>
+      </article>
+
+      <article class="projects__list">
+        <figure class="projects__img">
+          <img src="img/diploma.jpg" alt="">
+        </figure>
+        <div class="projects__description">
+          <h3>Name project</h3>
+          <p>Little description</p>
+        </div>
+        <button>Go to</button>
+      </article>
+    </section>
+
+    <section id="contact" class="contanct container">
+      <form action="#">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email">
+      </form>
+      <button type="submit">Send</button>
+    </section>
+  </main>
+</body>
+</html>
