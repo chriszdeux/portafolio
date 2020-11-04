@@ -34,7 +34,7 @@ body {
 }
 
 section {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 a {
@@ -62,7 +62,7 @@ ul, ol, li {
   background-color: var(--secondColor);
   color: var(--thirdColor);
   height: 50px;
-  box-shadow: 1px 1px 5px grey;
+  box-shadow: 2px 2px 5px var(--secondColor)
 }
 .menu__dropdown {
   /* position: relative; */
@@ -80,7 +80,7 @@ ul, ol, li {
   right: 0;
   width: 100%;
   z-index: 1;
-  box-shadow: 1px 1px 5px grey;
+  box-shadow: 2px 2px 5px var(--secondColor)
 }
 .menu__content li {
   width: 100%;
@@ -168,6 +168,7 @@ ul, ol, li {
   flex-wrap: wrap;
   /* height: 200px; */
   border: 1px solid lightgreen;
+  box-shadow: 2px 2px 5px var(--secondColor)
 }
 
 .skills__list span {
@@ -191,6 +192,7 @@ ul, ol, li {
   width: 200px;
   height: 200px;
   margin: 10px;
+  box-shadow: 2px 2px 5px var(--secondColor)
 }
 
 .projects__img {
@@ -210,4 +212,71 @@ ul, ol, li {
 .projects__list button {
   align-self: flex-end;
   float: right;
+}
+
+
+/*               \
+      FOOTER
+\              */
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: var(--mainFontColor);
+}
+
+
+/*               \
+      LINES
+\              */
+
+.line__container{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 70%;
+  border-bottom: 1px solid var(--mainFontColor);
+  opacity: 0.2;
+}
+
+/*               \
+    EXPERIMENT
+\              */
+
+.testing__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 300px; */
+  margin: 0;
+}
+
+.box1 {
+  width: 50px;
+  height: 50px;
+  background-color: lightgreen;
+  transform: skewX(-20deg);
+}
+
+.box2 {
+  width: 50px;
+  height: 50px;
+  background-color: lightseagreen;
+  transform: skewX(-20deg);
+}
+
+.box1:hover {
+  width: 60px;
+  height: 60px;
+}
+.box2:hover {
+  width: 60px;
+  height: 60px;
 }
